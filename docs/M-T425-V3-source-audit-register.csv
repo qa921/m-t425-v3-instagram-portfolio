@@ -1,0 +1,6 @@
+audit_scope,observed_at,expected_source_count,reviewed_count,selection_target,known_exception,required_followup
+connected Instagram catalog,2026-09-15,24,21,10-12,"catalog currently exposes 21 items; verify whether a 24-item scope is attainable","use pagination and report any shortfall"
+featured-card provenance,2026-09-14,12,0,10-12,"prior cards had no required source URL","attach a direct Instagram permalink to every featured item"
+format taxonomy,2026-09-14,3,0,3,"carousels were lumped with feed work","classify by media_type plus media_product_type and recheck ambiguous entries after first deploy"
+asset persistence,2026-09-14,12,0,10-12,"no stable repository asset paths exist","only persist fetchable usable assets under public/media; enumerate failures"
+metrics,2026-09-14,24,0,24,"no verified metrics in prior state","query valid per-media metrics; label unavailable values"
